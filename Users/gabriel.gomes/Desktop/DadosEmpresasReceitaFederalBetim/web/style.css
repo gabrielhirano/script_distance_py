@@ -1,0 +1,23 @@
+input[type=text]:focus {
+    border: 3px solid #555;
+  }
+form{
+    width: 100%;
+}
+div.single-input{
+    width: 100%;
+    margin:30px 30%;
+}
+#valor{
+    width: 30%;
+    max-width: 350px;
+    height: 30px;
+    font-size: 16px;
+    position: relative;
+    margin: 28px 30%;
+}
+#map{
+    margin-top: 0 ;
+    height: 720px;
+    width: 100%;
+}

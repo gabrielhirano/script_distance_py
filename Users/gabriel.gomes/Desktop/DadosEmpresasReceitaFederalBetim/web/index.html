@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Geocoder</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpaiuSarCTq4h0utLsJR1w28iZ9vARXhQ&callback=initMap&v=weekly" defer>
+        </script>
+    </head>
+    <body style="margin:0">
+        <div id="barra" style="width: 100%; height: 100px; background-color:#2b2e7b">
+            <span class="single-input">
+                <input type="text" id="valor" class="input" placeholder="Digite um endereço" onkeydown="salvaNome(this)">
+            </span>
+        </div>
+
+        <div id="map">
+
+        </div>
+
+    </body>
+</html>
